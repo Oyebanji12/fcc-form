@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="center-div">
+        <!-- heading-->  
+  <div class="title">
+      <h1> survey form</h1>
+  </div>
+  <div class="description">
+      <p> 
+      <h3>
+          Thank you for taking the time to help us improve the platform
+      </h3>
+      </p>
+  </div>
+  <!--form-->
+  <form action="#" id="survey-form">
+       
+  <div class="container">
+      <div class="form-name">
+      <label for="name" id="name-label"> Name:  </label> 
+      <input type="name" id="name" placeholder="Enter your name" size="50" style="height: 30px;"><br>
+      </div>
+  
+      <div class="form-email">
+      <label for="email" id="email-label"> Email: </label> 
+      <input type="email" id="email" placeholder="Enter your email" size="50" style="height: 30px;"> <br>
+      </div>
+  
+      <div class="form-age">
+      <label for="age" id="number-label"> Age: </label>
+      <input type="age" id="number" placeholder="Enter your age" size="50" style="height: 30px;"> <br>
+      </div>
+  <!--dropdown-->
+      <div class="form-dropdown">
+      <label for="role">which option best describe your current role:</label> 
+      <select name="role" id="dropdown" style="min-height: 40px;min-width: 100px;">
+          <option value="student">Student</option> 
+          <option value="full time job">Full time job</option> 
+          <option value="full time learner">Full time learner</option>
+          <option value="prefer not to say">Prefer not to say</option>
+          <option value="others">Others</option> 
+      </select> <br>
+      </div>
+  <!--radio-->
+      <div class="form-radio">
+      <label for="service">Would you recommend our service ? </label> <br> 
+      <input type="radio" name="service" value="definitely"> 
+      <label for="definitely">definitely</label> <br>
+      <input type="radio" name="service" value="may be"> 
+      <label for="may be">may be</label> <br>
+      <input type="radio" name="service" value="not sure"> 
+      <label for="not sure">not sure</label> <br>
+      </div>
+      
+  <!---checkbox-->
+      <div class="form-checkbox">
+  <label for="improved">What would you like to improved ?</label> <br>
+      <input type="checkbox" name="" value="frond-end project">
+      <label for="frond-end project">Front end project</label>  <br>
+      <input type="checkbox" name="" value="back-end project">
+      <label for="back-end project">Back end project</label> <br>
+      <input type="checkbox" name="" value="data-visualization">
+      <label for="data visualization">Data visualization</label> <br>
+      <input type="checkbox" name="" value="open-source">
+      <label for="open source">Open source</label> <br>
+      <input type="checkbox" name="" value="forum">
+      <label for="forum">Forum</label> <br>
+      <input type="checkbox" name="" value="city meet up">
+      <label for="city meet up">City meet up</label> <br>
+      </div>
+  <!--text area-->
+  <div class="form-textarea">
+  <label for="text" class="lb">Any suggestion or comment ?</label> <br>
+  <textarea name="comment" id=""  cols="50" rows="6">
+      Enter your comment here...
+  </textarea> <br>
+  </div>
+  <!--submit button-->
+  <button type="button" id="submit">
+  Submit
+  </button>
+  
+  </div>
+  
+  
+  </form>
+  
+    </div>
+  
+</body>
+</html>
